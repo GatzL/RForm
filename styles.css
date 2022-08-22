@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+
+div {
+    background-color: blue;
+    width: 40vw;
+    margin: 0 auto;
+}
+
+.cursiv {
+    font-style: italic;
+}
+
+h1, p {
+    text-align: center;
+    color:azure;
+}
+
+label, textarea, select {
+    font-size: large;
+    display: block;
+    margin: 10px 0 0 0;
+    width: 80%;
+    min-height: 2em;
+    padding-left: 60px;
+    
+}
+
+fieldset {
+    border: none;
+    padding: 0.2rem 0;
+}
+
+.inline {
+    display: inline-block;
+    float: left;
+}
+
+.nach {
+    display:block;
+    font-size: large;
+    min-height: 28px;
+    width: 100%;
+}
+
+
+
+
