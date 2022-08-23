@@ -1,11 +1,16 @@
 body {
     background-color: black;
+    background-image: url(img/Lain.jpg);
 }
 
 div {
-    background-color: blue;
+    background-color: #244792;
     width: 40vw;
     margin: 0 auto;
+    opacity: 0.95;
+    border-radius: 10px;
+    padding-bottom: 1px;
+    padding-top: 20px;
 }
 
 .cursiv {
@@ -17,7 +22,7 @@ h1, p {
     color:azure;
 }
 
-label, textarea, select {
+label, textarea {
     font-size: large;
     display: block;
     margin: 10px 0 0 0;
@@ -42,6 +47,38 @@ fieldset {
     font-size: large;
     min-height: 28px;
     width: 100%;
+}
+
+.big {
+    font-size: large;
+    display: block;
+    margin: 10px 0 0 0;
+    width: 101%;
+    min-height: 2em;
+    padding-left: 60px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+input {
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: green;
+    width: 40%;
+    height: 50px;
+    font-size: 20px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.ta {
+    width: 90%;
+    resize: vertical;
 }
 
 
